@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body{
+background-image: url("https://thumbs.dreamstime.com/z/mulher-gravida-nova-com-fome-que-vai-comer-o-bolo-de-chocolate-92308417.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+img {
+    width: 200px;
+
+}
+
+div {
+
+    padding: 10px 0; 
+    font-family: 'roboto';
+
+
+}
+
+input,
+select,
+textarea {
+    border: 1 px solid gray;
+    border-radius: 24px;
+    margin-left: 12px;
+    font-family: 'roboto';
+}

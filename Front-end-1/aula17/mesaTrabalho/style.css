@@ -1,0 +1,40 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+   background-color: black;
+   font-family: 'Roboto', sans-serif;
+}
+.page-title {
+    color: white;
+    text-align: center;
+}
+
+.video-views, .video-title  {
+    color: white;
+}
+.videos {
+
+    height: 100vh;
+    display: flex;    
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+
+
+.video {
+    height: 300px;
+    width: 300px;
+    width: 30%;
+   
+}

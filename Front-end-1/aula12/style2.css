@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+
+    width: 100%;
+    background-color: yellow;
+    position: fixed;
+    z-index: 100;
+
+}
+
+header img {
+
+
+    width: 80px;
+    padding: 10px 10px;
+
+}
+.produtos {
+
+width: 100%;
+justify-content: center;
+align-items: center;
+display: flex;
+flex-wrap: wrap;
+
+}
+
+.produto {
+    width: 300px;
+    height: 400px;
+    background-color: yellowgreen;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+.foto {
+   width: 125px;
+   
+
+}

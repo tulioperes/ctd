@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fome de Bolo</title>
+    <link href="style.css" rel="stylesheet">
+
+</head>
+
+  
+        
+           <!-- <p>E-mail</p>-->
+
+    <form>
+
+        <img src="http://fomedebolo.com.br/img/logo-facebook.jpg">
+        <h1>Faça se pedido</h1>
+
+
+        <fieldset>
+
+            <legend>Dados Pessoais</legend>
+
+
+            <div>
+                <label for="name">Nome</label>
+                <input type="name" name="name" id="name" placeholder="Nome">
+
+            </div>
+
+            <div>
+                <label for="telefone">Seu Telefone:</label>
+                <input type="text" id="telefone" name="telefone" placeholder="Digite seu Telefone">
+            </div>
+
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Monte seu Bolo</legend>
+
+
+            <div>
+
+                <label for="sabor">Sabores</label>
+                <input list="sabores" name="sabor" id="sabor">
+                <datalist id="sabores">
+                    <option value="Formigueiro">
+                    <option value="Cenoura com Brigadeiro">
+                    <option value="Café com chocolate">
+                    <option value="Chocolate com castanhas">
+                    <option value="Chocolate vegano">
+                    <option value="Cenoura vegano">
+
+
+                </datalist>
+                <label for="adicional">Adicionais</label>
+                <input list="adic" name="adicional" id="adicional">
+                <datalist id="adic">
+                    <option value="Gotas de chocolate amargo 70%">
+                    <option value="Calda de chocolate">
+                    <option value="Castanhas">
+                    <option value="Uva Passas">
+                    <option value="Blueberry">
+                   
+
+
+                </datalist>
+                <div>
+                    <h3>Quantidades de Adicionais</h3>
+
+                    <input type="radio" name="option" id="option">
+                    <label for="option">100 Gramas</label>
+                    <input type="radio" name="option" id="option">
+                    <label for="option2">200 Gramas</label>
+                    
+    
+    
+                </div>
+
+
+            </div>
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Localização</legend>
+
+            <label for="city">Estado</label>
+            <select name="state" id="state">
+                <optgroup label="Sul">
+                    <option value="saoRoque">São Roque</option>
+                    <option value="saoPaulo">São Paulo</option>
+                </optgroup>
+                <optgroup label="Norte"></optgroup>
+                <option value="saoRoque">São Roque</option>
+                <option value="saoPaulo">São Paulo</option>
+                </optgroup>
+            </select>
+
+            <div>
+
+                <label for="city">Cidade</label>
+                <input list="citys" name="city" id="city">
+                <datalist id="citys">
+                    <option value="São Paulo">
+                    <option value="São Roque">
+                    <option value="São Paulo">
+                    <option value="São Roque">
+
+                </datalist>
+
+            </div>
+
+
+            <div>
+                <label for="endereço">Endereço com número:</label>
+                <input type="text" id="endereço" name="endereço" placeholder="Digite seu endereço*" required>
+            </div>
+
+            <div>
+                <label for="comments">Comentários/Observações</label>
+                <div>
+
+                    <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+
+                </div>
+
+        </fieldset>
+
+        </div>
+
+        <button type="submit">Fazer Pedido</button>
+
+        <button type="reset">limpar Pedido</button>
+
+    </form>
+
+</body>
+
+</html>

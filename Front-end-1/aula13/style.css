@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+img {
+    width: 200px;
+
+   }
+
+   h1 {
+    font: 24px 'Roboto';
+    color: darkred;
+}
+
+   div {
+
+     padding: 10px 0;
+   }
+
+   input, select, textarea {
+       border: 1 px solid gray;
+       border-radius: 24px;
+       margin-left: 12px;
+
+
+   }
+   
+button {
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
+    border: darkred dotted 2px;
+    cursor: pointer;
+    } 
