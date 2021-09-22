@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+body {
+   
+
+        display: grid;
+        grid-template-columns: 200px ;
+        grid-template-areas: 
+        'header header'
+        'main main'
+        'footer footer';
+    
+}
+
+body header {
+    grid-area: header;
+    font: 'roboto';
+    color: rgba(245, 245, 245, 0.651);
+    text-align: center;
+    z-index: 1;
+}
+
+body main {
+    grid-area: main;
+    color: rgb(77, 182, 100);
+    font: 18px 'inconsolata';
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 24px;
+
+
+}
+
+footer {
+
+    grid-area: footer;
+
+}
+
+.video {
+
+    width: 30%;
+                height: fit-content;
+                margin-top: 40px;
+                padding: 32px 12px;
+                transition: .5s ease-in-out;
+                cursor: pointer;
+                
+   
+
+}
+
+h2 {
+    font: 'roboto';
+    color: rgba(245, 245, 245, 0.651);
+    padding: 20px;
+    
+    
+}
+
+ol {
+    color: rgb(20, 1, 37);
+    font: 18px 'inconsolata';
+
+    
+}
+
+img {
+
+    height:60px;
+   
+}
+
+@media (max-width: 425px) {
+
+    body {
+
+        grid-template-columns: auto;
+        grid-template-areas:
+        'header'
+        'main'
+        'footer';
+    }
+}

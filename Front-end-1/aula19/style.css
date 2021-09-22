@@ -1,0 +1,19 @@
+* {
+
+}
+div {
+
+    background-color: aqua;
+    height: 300px;
+    width: 300px;
+
+}
+
+@media (max-width: 450px) {
+   
+    div {
+
+          width: 100%;
+
+    }
+}
