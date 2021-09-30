@@ -11,7 +11,7 @@ var produtos = [
         nomeDoProduto: "Smartwatch",
         valorDoProduto: 600,
         qualidadeDoProduto: 5,
-        status: true
+        status: false
     },
 
     {
